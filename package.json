@@ -1,0 +1,32 @@
+{
+  "name": "hemnet",
+  "version": "1.0.0",
+  "description": "Hemnet.se parser",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DONSA/hemnet.git"
+  },
+  "dependencies": {
+    "cheerio": "latest",
+    "dotenv": "^6.0.0",
+    "express": "latest",
+    "fs": "0.0.1-security",
+    "mustache": "^2.3.0",
+    "mysql": "^2.15.0",
+    "node-fetch": "^1.7.3",
+    "nodemailer": "^4.6.5"
+  },
+  "keywords": [
+    "hemnet"
+  ],
+  "author": "Nuno Lopes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DONSA/hemnet/issues"
+  },
+  "homepage": "https://github.com/DONSA/hemnet#readme"
+}
